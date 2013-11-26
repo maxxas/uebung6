@@ -1,0 +1,6 @@
+      invoke  active_record
+      create    db/migrate/20131119150559_create_accounts.rb
+      create    app/models/account.rb
+      invoke    test_unit
+      create      test/models/account_test.rb
+      create      test/fixtures/accounts.yml
